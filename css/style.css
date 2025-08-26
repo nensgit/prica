@@ -1,0 +1,97 @@
+/* Stilovi za h3 */
+h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Bree Serif", serif;
+}
+
+/* Stilovi za indikatore aktivnog slajda */
+.slider .indicators .indicator-item.active {
+  background: #6f4037;
+}
+
+/* Stilovi za navigacionu traku */
+.nav-wrapper {
+  background-color: #6f4037;
+}
+
+/* Stilovi za linkove u sidenav-u */
+.sidenav a {
+  text-decoration: none;
+}
+
+/* Stilovi za logo u navigaciji */
+.nav-wrapper > a {
+  text-decoration: none;
+  font-family: "Pacifico", cursive;
+}
+
+/* Stilovi za hover efekat */
+.nav-wrapper > a:hover,
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  text-decoration: none;
+  color: white;
+}
+
+/* Stilovi za naslov */
+.header {
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+/* Stilovi za visinu karusela */
+.carousel {
+  height: 350px;
+}
+
+/* Stilovi za footer */
+.page-footer {
+  background: #6f4037;
+}
+
+/* Stilovi za parallax */
+.parallax-container {
+  min-height: 380px;
+  height: auto;
+}
+
+/* Stilovi za ikonicu kafe */
+.icon-coffee {
+  color: #6f4037;
+}
+
+/* Stilovi za horizontalnu liniju */
+hr {
+  color: #6f4037;
+  height: 10px;
+  border: none;
+  background-color: #6f4037;
+}
+
+/* Stilovi za manje ekrane */
+@media (max-width: 992px) {
+  /* Stilovi za hover efekat na manjim ekranima */
+  .nav-wrapper > a:hover {
+    color: black;
+  }
+
+  /* Stilovi za visinu karusela na manjim ekranima */
+  .carousel {
+    height: 150px;
+  }
+}
+
+/* Stilovi za veće ekrane */
+@media (min-width: 992px) {
+  /* Stilovi za padding levog linka u navigaciji na većim ekranima */
+  .nav-wrapper > a {
+    padding-left: 35px;
+  }
+
+  /* Stilovi za margine caption sekcije na većim ekranima */
+  .caption {
+    margin-top: 50px;
+  }
+}
